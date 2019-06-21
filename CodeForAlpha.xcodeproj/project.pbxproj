@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4333F1962780FCD52F26FA /* Pods_CodeForAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AC89E4BEC5A065A822BB48 /* Pods_CodeForAlpha.framework */; };
 		A48E05FC22BD025000B88BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E05FB22BD025000B88BDA /* AppDelegate.swift */; };
 		A48E05FE22BD025000B88BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E05FD22BD025000B88BDA /* ViewController.swift */; };
 		A48E060122BD025000B88BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48E05FF22BD025000B88BDA /* Main.storyboard */; };
@@ -14,6 +15,23 @@
 		A48E060622BD025200B88BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48E060422BD025200B88BDA /* LaunchScreen.storyboard */; };
 		A48E061122BD025200B88BDA /* CodeForAlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E061022BD025200B88BDA /* CodeForAlphaTests.swift */; };
 		A48E061C22BD025200B88BDA /* CodeForAlphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E061B22BD025200B88BDA /* CodeForAlphaUITests.swift */; };
+		A48E062A22BD039A00B88BDA /* MainTgisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E062922BD039A00B88BDA /* MainTgisViewController.swift */; };
+		A48E062C22BD03CD00B88BDA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E062B22BD03CD00B88BDA /* MainView.swift */; };
+		A48E062E22BD040200B88BDA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E062D22BD040200B88BDA /* CustomView.swift */; };
+		A48E063022BD042F00B88BDA /* GetLocationByCoord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E062F22BD042F00B88BDA /* GetLocationByCoord.swift */; };
+		A48E063222BD049700B88BDA /* OverlayMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063122BD049700B88BDA /* OverlayMap.swift */; };
+		A48E063422BD04AF00B88BDA /* SearchTgis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063322BD04AF00B88BDA /* SearchTgis.swift */; };
+		A48E063622BD04C600B88BDA /* ChooseTgis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063522BD04C600B88BDA /* ChooseTgis.swift */; };
+		A48E063822BD04E100B88BDA /* CoordLocationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063722BD04E100B88BDA /* CoordLocationModule.swift */; };
+		A48E063A22BD04F600B88BDA /* TwoGisModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063922BD04F600B88BDA /* TwoGisModule.swift */; };
+		A48E063C22BD050A00B88BDA /* PlaceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063B22BD050A00B88BDA /* PlaceProtocol.swift */; };
+		A48E063E22BD051D00B88BDA /* PlaceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063D22BD051D00B88BDA /* PlaceModule.swift */; };
+		A48E064022BD05C900B88BDA /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E063F22BD05C900B88BDA /* PlaceCell.swift */; };
+		A48E064222BD065A00B88BDA /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E064122BD065A00B88BDA /* extension.swift */; };
+		A48E064422BD06AE00B88BDA /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E064322BD06AE00B88BDA /* ColorType.swift */; };
+		A48E064622BD06D000B88BDA /* statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E064522BD06D000B88BDA /* statics.swift */; };
+		B17FA9CE56325D8393CED625 /* Pods_CodeForAlphaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF056FF3F624C952DEF57F9 /* Pods_CodeForAlphaTests.framework */; };
+		D423AD56BD6C06229C72A2D9 /* Pods_CodeForAlphaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AF6DCB4874E94ABA3E189 /* Pods_CodeForAlphaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FAC6BC45893FD1C8C72418D /* Pods-CodeForAlphaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeForAlphaUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodeForAlphaUITests/Pods-CodeForAlphaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62C6D5B55C7E2CCEFEC9AA67 /* Pods-CodeForAlphaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeForAlphaUITests.release.xcconfig"; path = "Target Support Files/Pods-CodeForAlphaUITests/Pods-CodeForAlphaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		722AF6DCB4874E94ABA3E189 /* Pods_CodeForAlphaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeForAlphaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886BFDD4083E3373EE47FDDE /* Pods-CodeForAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeForAlpha.release.xcconfig"; path = "Target Support Files/Pods-CodeForAlpha/Pods-CodeForAlpha.release.xcconfig"; sourceTree = "<group>"; };
 		A48E05F822BD025000B88BDA /* CodeForAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeForAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48E05FB22BD025000B88BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48E05FD22BD025000B88BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,26 @@
 		A48E061722BD025200B88BDA /* CodeForAlphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeForAlphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48E061B22BD025200B88BDA /* CodeForAlphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeForAlphaUITests.swift; sourceTree = "<group>"; };
 		A48E061D22BD025200B88BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48E062922BD039A00B88BDA /* MainTgisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTgisViewController.swift; sourceTree = "<group>"; };
+		A48E062B22BD03CD00B88BDA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A48E062D22BD040200B88BDA /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		A48E062F22BD042F00B88BDA /* GetLocationByCoord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationByCoord.swift; sourceTree = "<group>"; };
+		A48E063122BD049700B88BDA /* OverlayMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayMap.swift; sourceTree = "<group>"; };
+		A48E063322BD04AF00B88BDA /* SearchTgis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTgis.swift; sourceTree = "<group>"; };
+		A48E063522BD04C600B88BDA /* ChooseTgis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTgis.swift; sourceTree = "<group>"; };
+		A48E063722BD04E100B88BDA /* CoordLocationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordLocationModule.swift; sourceTree = "<group>"; };
+		A48E063922BD04F600B88BDA /* TwoGisModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoGisModule.swift; sourceTree = "<group>"; };
+		A48E063B22BD050A00B88BDA /* PlaceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceProtocol.swift; sourceTree = "<group>"; };
+		A48E063D22BD051D00B88BDA /* PlaceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModule.swift; sourceTree = "<group>"; };
+		A48E063F22BD05C900B88BDA /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		A48E064122BD065A00B88BDA /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		A48E064322BD06AE00B88BDA /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		A48E064522BD06D000B88BDA /* statics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statics.swift; sourceTree = "<group>"; };
+		B81B044A00C554AE136C5E7B /* Pods-CodeForAlphaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeForAlphaTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeForAlphaTests/Pods-CodeForAlphaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8AC89E4BEC5A065A822BB48 /* Pods_CodeForAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeForAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8900BA2B38538952334D456 /* Pods-CodeForAlphaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeForAlphaTests.release.xcconfig"; path = "Target Support Files/Pods-CodeForAlphaTests/Pods-CodeForAlphaTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF056FF3F624C952DEF57F9 /* Pods_CodeForAlphaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeForAlphaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19FED6734996B1EBD49E02D /* Pods-CodeForAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeForAlpha.debug.xcconfig"; path = "Target Support Files/Pods-CodeForAlpha/Pods-CodeForAlpha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4333F1962780FCD52F26FA /* Pods_CodeForAlpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17FA9CE56325D8393CED625 /* Pods_CodeForAlphaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D423AD56BD6C06229C72A2D9 /* Pods_CodeForAlphaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,8 @@
 				A48E060F22BD025200B88BDA /* CodeForAlphaTests */,
 				A48E061A22BD025200B88BDA /* CodeForAlphaUITests */,
 				A48E05F922BD025000B88BDA /* Products */,
+				D459BF3BF7D7358E3358709B /* Pods */,
+				F7D1E4A1EC43C29B1CDBDA83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +146,21 @@
 			children = (
 				A48E05FB22BD025000B88BDA /* AppDelegate.swift */,
 				A48E05FD22BD025000B88BDA /* ViewController.swift */,
+				A48E062922BD039A00B88BDA /* MainTgisViewController.swift */,
+				A48E062F22BD042F00B88BDA /* GetLocationByCoord.swift */,
+				A48E063B22BD050A00B88BDA /* PlaceProtocol.swift */,
+				A48E063F22BD05C900B88BDA /* PlaceCell.swift */,
+				A48E063D22BD051D00B88BDA /* PlaceModule.swift */,
+				A48E064522BD06D000B88BDA /* statics.swift */,
+				A48E062B22BD03CD00B88BDA /* MainView.swift */,
+				A48E062D22BD040200B88BDA /* CustomView.swift */,
+				A48E064322BD06AE00B88BDA /* ColorType.swift */,
+				A48E063922BD04F600B88BDA /* TwoGisModule.swift */,
+				A48E064122BD065A00B88BDA /* extension.swift */,
+				A48E063322BD04AF00B88BDA /* SearchTgis.swift */,
+				A48E063722BD04E100B88BDA /* CoordLocationModule.swift */,
+				A48E063522BD04C600B88BDA /* ChooseTgis.swift */,
+				A48E063122BD049700B88BDA /* OverlayMap.swift */,
 				A48E05FF22BD025000B88BDA /* Main.storyboard */,
 				A48E060222BD025200B88BDA /* Assets.xcassets */,
 				A48E060422BD025200B88BDA /* LaunchScreen.storyboard */,
@@ -125,6 +187,29 @@
 			path = CodeForAlphaUITests;
 			sourceTree = "<group>";
 		};
+		D459BF3BF7D7358E3358709B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F19FED6734996B1EBD49E02D /* Pods-CodeForAlpha.debug.xcconfig */,
+				886BFDD4083E3373EE47FDDE /* Pods-CodeForAlpha.release.xcconfig */,
+				B81B044A00C554AE136C5E7B /* Pods-CodeForAlphaTests.debug.xcconfig */,
+				C8900BA2B38538952334D456 /* Pods-CodeForAlphaTests.release.xcconfig */,
+				2FAC6BC45893FD1C8C72418D /* Pods-CodeForAlphaUITests.debug.xcconfig */,
+				62C6D5B55C7E2CCEFEC9AA67 /* Pods-CodeForAlphaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7D1E4A1EC43C29B1CDBDA83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8AC89E4BEC5A065A822BB48 /* Pods_CodeForAlpha.framework */,
+				CAF056FF3F624C952DEF57F9 /* Pods_CodeForAlphaTests.framework */,
+				722AF6DCB4874E94ABA3E189 /* Pods_CodeForAlphaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48E062022BD025200B88BDA /* Build configuration list for PBXNativeTarget "CodeForAlpha" */;
 			buildPhases = (
+				75E693BE0E5F0653DA147B46 /* [CP] Check Pods Manifest.lock */,
 				A48E05F422BD025000B88BDA /* Sources */,
 				A48E05F522BD025000B88BDA /* Frameworks */,
 				A48E05F622BD025000B88BDA /* Resources */,
+				BB2735835F24138F0F6EC4DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48E062322BD025200B88BDA /* Build configuration list for PBXNativeTarget "CodeForAlphaTests" */;
 			buildPhases = (
+				948975F700D1CEA6F3E8DA64 /* [CP] Check Pods Manifest.lock */,
 				A48E060822BD025200B88BDA /* Sources */,
 				A48E060922BD025200B88BDA /* Frameworks */,
 				A48E060A22BD025200B88BDA /* Resources */,
@@ -167,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48E062622BD025200B88BDA /* Build configuration list for PBXNativeTarget "CodeForAlphaUITests" */;
 			buildPhases = (
+				4587EEB8A7ECEAB1BCC870E0 /* [CP] Check Pods Manifest.lock */,
 				A48E061322BD025200B88BDA /* Sources */,
 				A48E061422BD025200B88BDA /* Frameworks */,
 				A48E061522BD025200B88BDA /* Resources */,
@@ -251,13 +340,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4587EEB8A7ECEAB1BCC870E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeForAlphaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E693BE0E5F0653DA147B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeForAlpha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948975F700D1CEA6F3E8DA64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeForAlphaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2735835F24138F0F6EC4DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeForAlpha/Pods-CodeForAlpha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeForAlpha/Pods-CodeForAlpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A48E05F422BD025000B88BDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48E063422BD04AF00B88BDA /* SearchTgis.swift in Sources */,
+				A48E063E22BD051D00B88BDA /* PlaceModule.swift in Sources */,
+				A48E062E22BD040200B88BDA /* CustomView.swift in Sources */,
+				A48E064222BD065A00B88BDA /* extension.swift in Sources */,
 				A48E05FE22BD025000B88BDA /* ViewController.swift in Sources */,
+				A48E062C22BD03CD00B88BDA /* MainView.swift in Sources */,
+				A48E063622BD04C600B88BDA /* ChooseTgis.swift in Sources */,
+				A48E063222BD049700B88BDA /* OverlayMap.swift in Sources */,
 				A48E05FC22BD025000B88BDA /* AppDelegate.swift in Sources */,
+				A48E063022BD042F00B88BDA /* GetLocationByCoord.swift in Sources */,
+				A48E064022BD05C900B88BDA /* PlaceCell.swift in Sources */,
+				A48E064422BD06AE00B88BDA /* ColorType.swift in Sources */,
+				A48E063822BD04E100B88BDA /* CoordLocationModule.swift in Sources */,
+				A48E063C22BD050A00B88BDA /* PlaceProtocol.swift in Sources */,
+				A48E062A22BD039A00B88BDA /* MainTgisViewController.swift in Sources */,
+				A48E064622BD06D000B88BDA /* statics.swift in Sources */,
+				A48E063A22BD04F600B88BDA /* TwoGisModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +633,7 @@
 		};
 		A48E062122BD025200B88BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19FED6734996B1EBD49E02D /* Pods-CodeForAlpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,12 +646,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheena.CodeForAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A48E062222BD025200B88BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886BFDD4083E3373EE47FDDE /* Pods-CodeForAlpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +665,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheena.CodeForAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		A48E062422BD025200B88BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81B044A00C554AE136C5E7B /* Pods-CodeForAlphaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +693,7 @@
 		};
 		A48E062522BD025200B88BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8900BA2B38538952334D456 /* Pods-CodeForAlphaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +715,7 @@
 		};
 		A48E062722BD025200B88BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAC6BC45893FD1C8C72418D /* Pods-CodeForAlphaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +736,7 @@
 		};
 		A48E062822BD025200B88BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C6D5B55C7E2CCEFEC9AA67 /* Pods-CodeForAlphaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
